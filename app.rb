@@ -1,7 +1,8 @@
+require 'rubygems'
 require 'sinatra'
 
-get '/' do  
-  erb :main
+get '/' do 
+  haml :main
 end
 
 
